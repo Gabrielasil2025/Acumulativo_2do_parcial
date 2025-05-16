@@ -1,0 +1,245 @@
+/*header y footer*/
+
+header{
+    background-color: purple;
+    padding: 10ox;
+}
+ul.menu{
+  list-style: none;
+  display: flex;
+  justify-content: left;
+  padding: 0;
+}
+.title{
+    margin: 10px;
+  text-align: left;
+  font-size: 45px;
+  background-clip: text;
+  color: black;
+  text-decoration: none;
+  }
+  .logo{
+    width: 125px;
+    height: 125px;
+    float: right;
+  }
+/*Fin header y footer*/
+
+/*INICIA LA PARTE DEL MENU PROPIEDADES GENERALES */
+#encabezado .menu{
+    width: 790px;
+    float: right;
+    margin-top: 40px;
+    text-align: center;
+    border: 0px solid;
+    font-size: 25px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    line-height: 2.5rem;
+    position: relative;
+}
+
+.menu ul{
+    position: absolute;
+}
+
+nav a{
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    transition: .4s;
+    padding: 10px 20px;
+}
+
+nav a:hover{
+    background: rgba(0,0,0,.5);
+}
+
+nav li ul{
+    float: right;
+    font-size: 17px;
+}
+
+
+/*menu parte primer nivel*/
+.menu{
+  background: transparent;
+  display: table;
+  height: auto;
+}
+
+.menu >li{
+  float: left;
+}
+
+/*menu parte segundo nivel*/
+nav li li{
+  background: blue;
+  max-height: 0;
+  overflow: hidden;
+  transition: all .1s;
+  width: 120px;
+}
+
+nav li:hover > ul > li{
+ max-height: 250px;
+ overflow: visible; 
+}
+
+.menu > li > ul{
+top:100%;
+}
+
+/*menu parte tercer nivel*/
+.menu ul ul{
+left:100%; 
+top: 0;
+}
+
+/*FINALIZA LA PARTE DEL MENU*/
+
+
+/*index*/
+    body {
+        text-align: justify;
+        font-family: Arial, sans-serif;
+        margin: 30px;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+    h1, h2 {
+        color: #2c3e50;
+    }
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    }
+    table, th, td {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: left;
+    }
+    ul {
+        list-style: disc;
+    }
+    .img1{
+        width: 250px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+    }
+    .footer{
+        background-color: rgb(246, 54, 54);
+        padding: 10px;
+        text-align: justify;
+        color: black;
+    }
+/*fin index*/
+
+/*Infancia*/
+    .img2{
+        width: 250px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+    }
+    .info{
+        text-align: justify;
+    }
+/*Fin Infancia*/
+
+
+
+
+
+
+/*Fallecimientos y funeral*/
+    .img3{
+        width: 250px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+    }
+    .info{
+        text-align: justify;
+    }
+/*Fin fallecimiento y funeral*/
+
+/*Ultimos años*/
+    .img4{
+        width: 250px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+    }
+/*Fin ultimos años*/
+
+/*Fallecimiento y funeral*/
+    .img5{
+        width: 250px;
+        border: 1px solid #a2a9b1;
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 14px;
+        float: right;
+        margin: 10px;
+    }
+/*Fin fallecimiento y funeral*/
+
+
+/*Formulario*/
+body .formu {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #c025eb;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, select, textarea, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
